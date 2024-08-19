@@ -13,8 +13,8 @@
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/appify.git
-    cd appify
+    git clone https://github.com/Binary-Scribe/Appify---Online-App-Store.git
+    cd Appify---Online-App-Store
     ```
 
 2. **Run Locally**:
