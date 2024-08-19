@@ -7,8 +7,42 @@
     <link href="output.css" rel="stylesheet">
 </head>
 <body>
-        <script src="../js/script.js"></script>
-        <div id="header-placeholder"></div>
+  <header>
+    <div class="navbar bg-base-100 bg-primary">
+        <div class="flex-1 flex items-center">
+            <a class="text-2xl text-white font-bold">Appify</a>
+            <div class="flex-none mx-auto">
+            <ul class="flex gap-10">
+                <li><a href="/" class="text-white">Home</a></li>
+                <li><a href="/pages/apps.html" class="text-white">Apps</a></li>
+                <li><a href="/pages/movies.html" class="text-white">Movies</a></li>
+                <li><a href="/pages/books.html" class="text-white">Books</a></li>
+                <li><a href="/pages/blog.html" class="text-white">Blog</a></li>
+                <li><a href="/pages/about.html" class="text-white">About Us</a></li>
+                <li><a href="/pages/contact.html" class="text-white">Contact Us</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="flex-none gap-2 flex items-center">
+            <div class="form-control">
+                <input type="text" placeholder="Search" class="input input-bordered w-24 md:w-auto" />
+            </div>
+            <button class="btn btn-outline btn-accent">Login</button>
+            <button class="btn btn-accent">Register</button>
+        </div>
+      </div>
+
+<!-- Hero Section If Need Enable This-->
+<!-- <div class="hero min-h-screen bg-primary text-white">
+    <div class="hero-content text-center">
+        <div class="max-w-lg">
+            <h1 class="text-5xl font-bold">Discover Amazing Apps</h1>
+            <p class="py-6">Find the perfect app for your needs with our extensive collection.</p>
+            <a href="#app-section" class="btn btn-light btn-lg">Explore Now</a>
+        </div>
+    </div>
+</div>
+</header> -->
     <!-- Apps -->
     
     <div class="container mx-auto mt-10 ml-15" id="app-section">
@@ -34,7 +68,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
 
@@ -58,7 +92,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
 
@@ -82,7 +116,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
 
@@ -105,7 +139,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
         </div>
@@ -135,7 +169,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview mov.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
 
@@ -159,7 +193,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview mov.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
 
@@ -183,7 +217,7 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview mov.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
 
@@ -206,13 +240,44 @@
                           </div>
                         
                     </div>
-                    <a href="#" class="btn btn-primary">DOWNLOAD</a>
+                    <a href="/pages/preview mov.html" class="btn btn-primary">DOWNLOAD</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- Footer -->
-
+    <footer class="footer bg-base-200 text-base-content p-10">
+        <aside>
+          <p>
+            This Is Dummy By Theekshana Ltd.
+            <br />
+            Owner of Softcorpions
+          </p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Home</h6>
+          <a class="link link-hover" href="/pages/blog.html">Blog</a>
+          <a class="link link-hover" href="/pages/feedback.html">Feedback</a>
+          <a class="link link-hover">Support</a>
+          <a class="link link-hover"  href="/pages/faq.html">FAQ</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Product & Service</h6>
+          <a class="link link-hover">Publish Your Blog</a>
+          <a class="link link-hover">Publish Your App</a>
+          <a class="link link-hover">Publish Movies</a>
+        </nav>
+        <nav>
+          <h6 class="footer-title">Policies</h6>
+          <a class="link link-hover">Privacy policy</a>
+          <a class="link link-hover">Terms & Conditions</a>
+        </nav>
+      </footer>
+      <footer class="footer footer-center p-4 bg-primary text-white">
+        <div>
+            <p>&copy; 2024 Online App Store. All rights reserved.</p>
+        </div>
+    </footer>
     <div id="footer-placeholder"></div>
 </body>
 </html>
